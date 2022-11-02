@@ -13,3 +13,5 @@ constructor(arrString, cssClass ) {
 
 let newList2 = new List2(['one', 'two', 'three', 'four'],'some-class')
 console.log(newList2.render())
+
+document.body.appendChild(newList2.render())
